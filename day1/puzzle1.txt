@@ -1,0 +1,13 @@
+********************************* For Explanation Purposes *******************************************************
+
+
+# arr = INPUT.split.map do |string|
+#   string.chars.select do |char|
+#     char.match?(/[0-9]/)
+#   end
+# end
+
+# arr.map! do |sub_arr|
+#   "#{sub_arr[0]}#{sub_arr[-1]}".to_i
+# end
+# p arr.sum
